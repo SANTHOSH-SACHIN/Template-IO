@@ -60,7 +60,7 @@ def fake_data():
 {% elif data_format == "Image files" %}
 # COMMENT THIS OUT IF YOU USE YOUR OWN DATA.
 # Download example data into ./data/image-data (4 image files, 2 for "dog", 2 for "cat").
-url = "https://github.com/jrieke/traingenerator/raw/main/data/fake-image-data.zip"
+url = "./data/fake-image-data.zip"
 zip_path, _ = urllib.request.urlretrieve(url)
 with zipfile.ZipFile(zip_path, "r") as f:
     f.extractall("data")

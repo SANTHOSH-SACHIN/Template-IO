@@ -15,7 +15,7 @@ MAGE_EMOJI_URL = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thu
 
 # Set page title and favicon.
 st.set_page_config(
-    page_title="Traingenerator", page_icon=MAGE_EMOJI_URL,
+    page_title="TEMPLATE-IO", page_icon=MAGE_EMOJI_URL,
 )
 
 
@@ -124,7 +124,7 @@ notebook_code = template.render(header=utils.notebook_header, notebook=True, **i
 notebook = utils.to_notebook(notebook_code)
 
 
-# Display donwload/open buttons.
+# Display download/open buttons.
 # TODO: Maybe refactor this (with some of the stuff in utils.py) to buttons.py.
 st.write("")  # add vertical space
 col1, col2, col3 = st.columns(3)
@@ -157,8 +157,3 @@ if open_colab:
             repo to store notebooks and register it via a .env file)
             """
         )
-
-
-# Tracking pixel to count number of visitors.
-if os.getenv("TRACKING_NAME"):
-    f"![](https://jrieke.goatcounter.com/count?p={os.getenv('TRACKING_NAME')})"

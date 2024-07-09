@@ -107,7 +107,7 @@ def show():
             |   +-- smelly-cat.png
             ```
             
-            See also [this example dir](https://github.com/jrieke/traingenerator/tree/main/data/image-data)
+            See also [this example dir](./data/image-data)
             """
             )
         elif inputs["data_format"] == "Public dataset":
@@ -159,7 +159,7 @@ def show():
         if inputs["visualization_tool"] == "Aim":
             inputs["aim_experiment"] = st.text_input("Experiment name (optional)")
             st.markdown(
-                '<sup>View by running: `aim up`</br>See full documentation <a href="https://github.com/aimhubio/aim#contents" target="_blank">here</a></sup>',
+                '<sup>View by running: `aim up`</br>',
                 unsafe_allow_html=True,
             )
         elif inputs["visualization_tool"] == "Weights & Biases":
