@@ -4,7 +4,7 @@ import streamlit as st
 def show():
     
     
-    inputs = {}  # dict to store all user inputs until return
+    inputs = {}  # dictionary to store all user inputs until return
     
     with st.sidebar:
         

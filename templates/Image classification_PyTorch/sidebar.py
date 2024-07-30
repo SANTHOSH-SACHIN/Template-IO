@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-# Define possible models in a dict.
+# Define possible models in a dictionary.
 # Format of the dict:
 # option 1: model -> code
 # option 2 – if model has multiple variants: model -> model variant -> code

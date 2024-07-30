@@ -10,9 +10,6 @@ import collections
 import utils
 
 
-MAGE_EMOJI_URL = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/259/mage_1f9d9.png"
-
-
 # Set page title and favicon.
 st.set_page_config(
     page_title="TEMPLATE-IO", page_icon="🏂",
