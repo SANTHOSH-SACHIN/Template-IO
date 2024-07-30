@@ -48,7 +48,7 @@ def show():
                 |   +-- smelly-cat.png
                 ```
                 
-                See also [this example dir](https://github.com/jrieke/traingenerator/tree/main/data/image-data)
+                See also [this example dir](https://github.com/SANTHOSH-SACHIN/Template-IO/tree/main/data/image-data)
                 """
             )
 

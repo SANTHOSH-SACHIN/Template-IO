@@ -8,7 +8,7 @@ def show():
 
     with st.sidebar:
         st.write(
-            "Coming soon! [Tell me](mailto:johannes.rieke@gmail.com) what you need."
+            "Coming soon! "
         )
 
     return inputs
