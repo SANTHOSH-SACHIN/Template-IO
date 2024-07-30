@@ -70,7 +70,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 # }
 template_dict = collections.defaultdict(dict)
 template_dirs = [
-    f for f in os.scandir("./templates") if f.is_dir() and f.name != "example"
+    f for f in os.scandir("../templates") if f.is_dir() and f.name != "example"
 ]
 # TODO: Find a good way to sort templates, e.g. by prepending a number to their name
 #   (e.g. 1_Image classification_PyTorch).
