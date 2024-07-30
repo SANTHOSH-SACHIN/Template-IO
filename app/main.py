@@ -15,7 +15,7 @@ MAGE_EMOJI_URL = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thu
 
 # Set page title and favicon.
 st.set_page_config(
-    page_title="TEMPLATE-IO", page_icon=MAGE_EMOJI_URL,
+    page_title="TEMPLATE-IO", page_icon="🏂",
 )
 
 
@@ -46,7 +46,7 @@ else:
 st.markdown("<br>", unsafe_allow_html=True)
 
 """
-# TemplateML
+# Template-IO
 """
 st.markdown("<br>", unsafe_allow_html=True)
 """Jumpstart your machine learning code:
